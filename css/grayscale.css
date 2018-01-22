@@ -197,7 +197,7 @@ a:focus, a:hover {
 }
 
 .contact-section {
-  color: white;
+  color: black;
   background: url("../img/crystals.jpg") no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
@@ -206,21 +206,12 @@ a:focus, a:hover {
   background-size: cover;
 }
 
-.contact-section {color:white;background:url("../img/crystals.jpg") no-repeat center center scroll;background-color:black;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;}
-
-/*#map {
-  width: 100%;
-  height: 300px;
-}*/
 
 @media (min-width: 992px) {
   .content-section {
     padding-top: 200px;
     padding-bottom: 200px;
   }
-/*  #map {
-    height: 350px;
-  }*/
 }
 
 .btn {
@@ -234,16 +225,16 @@ a:focus, a:hover {
 }
 
 .btn-default {
-  color: #42DCA3;
-  border: 1px solid #42DCA3;
+  color: black;
+  border: 5px solid black;
   background-color: transparent;
 }
 
 .btn-default:focus, .btn-default:hover {
-  color: black;
+  color: #42DCA3;
   border: 1px solid #42DCA3;
   outline: none;
-  background-color: #42DCA3;
+  background-color: black;
 }
 
 ul.banner-social-buttons {
