@@ -31,6 +31,10 @@ p {
   margin: 0 0 25px;
 }
 
+footer h5 {
+  margin: 0;
+}
+
 @media (min-width: 768px) {
   p {
     font-size: 18px;
@@ -124,8 +128,6 @@ a:focus, a:hover {
   padding: 200px 0;
   text-align: center;
   color: white;
-/*  background: url("../img/intro-bg.jpg") no-repeat bottom center scroll;
-*/
   background: url("../img/purple_smoke.jpg") no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
@@ -182,13 +184,34 @@ a:focus, a:hover {
 }
 
 .content-section {
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding: 20vh 0;
+  text-align: center;
+  height: 100vh;
+}
+
+.project {
+  height: 33vh;
+  width: 33vh;
+  margin: 0 1vh;
+  background-color: black;
+  display: inline-block;
+  font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#projects {
+  background: url("../img/pink_smoke.jpg");
+  background-size: cover;
+  padding: 10vh 0;
+}
+
+#contact {
+  background: url("../img/crystals.jpg");
+  background-size: cover;
 }
 
 .download-section {
   color: white;
-  background: url("../img/pink_smoke.jpg") no-repeat center center scroll;
+  background: url("../img/downloads-bg.jpg") no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -196,21 +219,18 @@ a:focus, a:hover {
   background-size: cover;
 }
 
-.contact-section {
-  color: black;
-  background: url("../img/crystals.jpg") no-repeat center center scroll;
-  background-color: black;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+#map {
+  width: 100%;
+  height: 300px;
 }
-
 
 @media (min-width: 992px) {
   .content-section {
-    padding-top: 200px;
-    padding-bottom: 200px;
+/*    padding-top: 200px;
+    padding-bottom: 200px;*/
+  }
+  #map {
+    height: 350px;
   }
 }
 
@@ -225,27 +245,28 @@ a:focus, a:hover {
 }
 
 .btn-default {
-  color: black;
-  border: 5px solid black;
+  color: #42DCA3;
+  border: 1px solid #42DCA3;
   background-color: transparent;
 }
 
 .btn-default:focus, .btn-default:hover {
-  color: #42DCA3;
+  color: black;
   border: 1px solid #42DCA3;
   outline: none;
-  background-color: black;
+  background-color: #42DCA3;
 }
 
 ul.banner-social-buttons {
   margin-top: 0;
 }
 
-@media (max-width: 1199px) {
+/*@media (max-width: 1199px) {
   ul.banner-social-buttons {
     margin-top: 15px;
   }
-}
+
+}*/
 
 @media (max-width: 767px) {
   ul.banner-social-buttons li {
@@ -260,6 +281,7 @@ ul.banner-social-buttons {
 
 footer {
   padding: 50px 0;
+  text-align: center;
 }
 
 footer p {
