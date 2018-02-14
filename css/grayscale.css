@@ -20,9 +20,10 @@ h5,
 h6 {
   font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
-  margin: 0 0 35px;
+  margin: 0 0 20px;
   letter-spacing: 1px;
   text-transform: uppercase;
+  font-size: 4rem;
 }
 
 p {
@@ -187,12 +188,13 @@ a:focus, a:hover {
   padding: 20vh 0;
   text-align: center;
   height: 100vh;
+  margin-top: 5vh;
 }
 
 .project {
   height: 33vh;
   width: 33vh;
-  margin: 0 1vh;
+  margin: 1vh 1vh;
   background-color: black;
   display: inline-block;
   font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -201,7 +203,12 @@ a:focus, a:hover {
 #projects {
   background: url("../img/pink_smoke.jpg");
   background-size: cover;
-  padding: 10vh 0;
+  padding: 6vh 0;
+}
+
+#project-container {
+/*  width: 100% !important;*/
+  height: 80%;
 }
 
 #contact {
