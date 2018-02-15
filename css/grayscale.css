@@ -26,6 +26,13 @@ h6 {
   font-size: 4rem;
 }
 
+#email {
+  font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
 p {
   font-size: 16px;
   line-height: 1.5;
@@ -211,9 +218,10 @@ a:focus, a:hover {
   height: 80%;
 }
 
-#contact {
+#interests {
   background: url("../img/crystals.jpg");
   background-size: cover;
+  color: black;
 }
 
 .download-section {
@@ -283,6 +291,9 @@ ul.banner-social-buttons {
   }
   ul.banner-social-buttons li:last-child {
     margin-bottom: 0;
+  }
+  #email {
+    font-size: 1rem
   }
 }
 
