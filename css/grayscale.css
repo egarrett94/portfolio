@@ -30,7 +30,16 @@ h6 {
   font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  padding-left: auto;
+}
+
+.left-social {
+  margin-right: 3vw;
+}
+
+.right-social {
+  margin-left: 3vw;
 }
 
 p {
