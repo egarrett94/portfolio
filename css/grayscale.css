@@ -112,6 +112,10 @@ a:focus, a:hover {
   background-color: transparent;
 }
 
+#foot {
+  font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
 @media (min-width: 992px) {
   #mainNav {
     padding-top: 20px;
