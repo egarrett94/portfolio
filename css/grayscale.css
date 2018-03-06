@@ -26,22 +26,6 @@ h6 {
   font-size: 4rem;
 }
 
-#email {
-  font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 700;
-  text-transform: uppercase;
-  font-size: 1.5rem;
-  padding-left: auto;
-}
-
-.left-social {
-  margin-right: 3vw;
-}
-
-.right-social {
-  margin-left: 3vw;
-}
-
 p {
   font-size: 16px;
   line-height: 1.5;
@@ -73,7 +57,7 @@ a:focus, a:hover {
   margin-bottom: 0;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-  background-color: black;
+  background-color: black !important;
 }
 
 #mainNav .navbar-toggler {
@@ -100,12 +84,12 @@ a:focus, a:hover {
 #mainNav .navbar-nav .nav-item:hover {
   color: fade(white, 80%);
   outline: none;
-  background-color: transparent;
+  background-color: black !important;
 }
 
 #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
   outline: none;
-  background-color: transparent;
+  background-color: black !important;
 }
 
 #foot {
@@ -222,10 +206,12 @@ a:focus, a:hover {
 }
 
 .content-section {
-  padding: 20vh 0;
+/*  padding: 20vh 0;*/
+  padding-top: 150px;
+  padding-bottom: 150px;
   text-align: center;
-  min-height: 100vh;
-  margin-top: 5vh;
+/*  min-height: 100vh;*/
+/*  margin-top: 5vh;*/
 }
 
 .project {
