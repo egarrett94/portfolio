@@ -48,10 +48,6 @@ p {
   margin: 0 0 25px;
 }
 
-footer h5 {
-  margin: 0;
-}
-
 @media (min-width: 768px) {
   p {
     font-size: 18px;
@@ -114,6 +110,27 @@ a:focus, a:hover {
 
 #foot {
   font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  letter-spacing: 1px;
+  font-weight: 700;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  line-height: inherit;
+  padding: 10px 16px;
+  background-color: black;
+}
+
+#foot > div{
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fa {
+  font-size: 2rem;
+}
+
+#copyright {
+  align-self: flex-end;
 }
 
 @media (min-width: 992px) {
@@ -285,46 +302,6 @@ a:focus, a:hover {
   background-color: #42DCA3;
 }
 
-/*ul.banner-social-buttons {
-  margin-top: 0;
-}*/
-
-/*@media (max-width: 1199px) {
-  ul.banner-social-buttons {
-    margin-top: 15px;
-  }
-
-}*/
-
-@media (max-width: 915px) {
-/*  ul.banner-social-buttons li {
-    display: block;
-    margin-bottom: 20px;
-    padding: 0;
-  }
-  ul.banner-social-buttons li:last-child {
-    margin-bottom: 0;
-  }*/
-  #email {
-    font-size: 1rem
-  }
-  .left-social,
-  .right-social {
-    font-size: 1rem;
-    line-height: 1rem;
-    margin: auto;
-  }
-}
-
-footer {
-  padding: 50px 0;
-  text-align: center;
-}
-
-footer p {
-  font-size: 14px;
-  margin: 0;
-}
 
 ::-moz-selection {
   background: #fcfcfc;
