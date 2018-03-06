@@ -92,6 +92,10 @@ a:focus, a:hover {
   background-color: black !important;
 }
 
+.nav-link:hover {
+  text-decoration: underline;
+}
+
 #foot {
   font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   letter-spacing: 1px;
